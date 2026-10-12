@@ -1,0 +1,53 @@
+# MonTrak - Daily Expense Tracker
+
+## What it does
+
+This project is a Python-based database application for tracking financial records. It allows you to:
+
+- insert income and expense values into a database
+- store records with dates
+- retrieve transactions by month
+- retrieve transactions by specific date
+- view monthly and daily financial summaries
+
+In short, it helps manage and query money movement in a structured way, making it easier to monitor income, spending, and overall financial activity.
+
+## Project overview
+
+The script connects to a database, creates a table for financial records if needed, and provides functions to:
+
+- insert a transaction
+- fetch all records for the current month
+- fetch records for a specific date
+
+This makes it useful for personal budgeting, small accounting work, or simple expense-tracking applications.
+
+## Features
+
+- Insert income and spending records
+- Query data by month
+- Query data by date
+- Uses SQL queries for efficient data retrieval
+- Keeps financial records organized in a database
+
+## Example usage
+
+The project includes functions such as:
+
+- `insertTable(money_made, money_spent)`
+- `retrieveMonth(monNum)`
+- `retrieveDate(date)`
+
+These functions let you record transactions and then pull them back based on time filters.
+
+## Screenshot
+
+Add the provided image here for project preview:
+
+![Finance tracker screenshot](./screenshot.png)
+
+> Replace `./screenshot.png` with the actual image filename if you save the attached image in the same folder as this README.
+
+## Summary
+
+This application is a simple finance database tool designed to store and retrieve financial information quickly, helping users track earnings and expenses over time.
